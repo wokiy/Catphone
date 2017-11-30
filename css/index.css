@@ -3,7 +3,7 @@
 }
 /*顶部设置*/
 .dm_header{
-    height: 40px;
+    height: 50px;
     width:100%;
     background-color: rgba(202, 215, 226, 0.3);
     position: relative;
@@ -15,7 +15,7 @@
     height: 36px;
     position: absolute;
     right: 65px;
-    top: 5px;
+    top: 10px;
     background-image: url("../images/search.png");
     background-size: 30px 30px;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     height: 36px;
     position: absolute;
     right: 0px;
-    top: 5px;
+    top: 10px;
     background-image: url("../images/man.png");
     background-size: 30px 30px;
     background-repeat: no-repeat;
@@ -35,8 +35,7 @@
     height: 36px;
     position: absolute;
     left: 0px;
-    top: 2px;
-    margin-top: 2px;
+    top: 9px;
     background-image: url("../images/LOO.png");
     background-size: 110px 30px;
     background-repeat: no-repeat;

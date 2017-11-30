@@ -1,0 +1,48 @@
+/*通用样式*/
+*,
+::before,
+::after{
+    font-size:14px;
+    margin:0;
+    padding: 0;
+    /*点击高亮*/
+    -webkit-tap-highlight-color: transparent;
+    
+    /*盒子模型*/
+    /*样式输入 tap*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*文字一直*/
+    font-family: '微软雅黑',sans-serif;
+}
+/*input 标签 去掉默认样式*/
+input{
+    border:none;
+    -webkit-appearance: none;
+}
+/*a text-de*/
+a{
+    text-decoration: none;
+}
+/*list-style*/
+ol ,ul{
+    list-style: none;
+}
+/*浮动设置*/
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: block;
+    line-height: 0;
+    height:0;
+    visibility: hidden;
+    clear: both;
+}

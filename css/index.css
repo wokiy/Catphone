@@ -1,0 +1,85 @@
+.dm_container{
+    width: 100%;
+}
+/*顶部设置*/
+.dm_header{
+    height: 40px;
+    width:100%;
+    background-color: rgba(202, 215, 226, 0.3);
+    position: relative;
+/*    padding-left: 70px;
+    padding-right: 60px;*/
+}
+.dm_header .header_logo{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    right: 65px;
+    top: 5px;
+    background-image: url("../images/search.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+.dm_header .header_logo2{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    background-image: url("../images/man.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+}
+.dm_header .header_logo3{
+    width: 110px;
+    height: 36px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    margin-top: 2px;
+    background-image: url("../images/LOO.png");
+    background-size: 110px 30px;
+    background-repeat: no-repeat;
+}
+
+/*lunbo*/
+.dm_banner{
+    width: 100%;
+    overflow: hidden;
+    /*索引定位*/
+    position: relative;
+}
+.dm_banner .dm_banner_images{
+   /*4倍宽度  横向 四张图片*/
+   width: 600%;
+}
+.dm_banner .dm_banner_images li{
+    float: left;
+    width: 16.6667%;
+}
+.dm_banner .dm_banner_images li a{
+    display: block;
+    width: 100%;
+}
+.dm_banner .dm_banner_images li a img {
+    display: block;
+    width: 100%;
+}
+/*小图标*/
+.dm_banner .banner_index{
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    margin-left: -20px;
+}
+.dm_banner .banner_index li{
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border:  1px solid white;
+    margin-left: 5px;
+}
+.dm_banner .banner_index li.current{
+    background-color:deeppink;
+}

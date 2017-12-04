@@ -82,14 +82,28 @@
 .dm_banner .banner_index li.current{
     background-color:deeppink;
 }
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*精选*/
 .content_selected{
     width: 100%;
     overflow: hidden;
+    margin-top: 8px;
+}
+/*div下划线问题实现*/
+.content_selected .hr{
+    height: 1px;
+    width:100%;
+    float: left;
+    margin-top: 37px;
+    background: silver;
 }
 .selected{
- width: 45%;
-
+ width: 46%;
 }
 .selected a img{
     width: 100%;
@@ -98,7 +112,7 @@
     margin-left: 14px;
 }
 .selected:nth-of-type(2){
-    margin-left: 16px;
+    margin-left: 11px;
 }
 .selected_title{
     font-size: 20px;
@@ -107,5 +121,26 @@
     margin-left: 14px;
     font-family: monospace;
 }
+/*-=-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* recommend*/
+.content_recommend{
+    height: 263px;
+    margin-top: 8px;
+    border-bottom: 1px solid rgba(124,124,124,.2);
+}
+.content_recommend .recommend_img_list{
+    width: 300%;
+}
+.content_recommend .recommend_img_list li{
+    float: left;
+    width: 15%;
+    margin-left: 7px;
+}
+.content_recommend .recommend_img_list li img{
+   display: block;
+    height: 165px;
+
+}
+
 
 

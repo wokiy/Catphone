@@ -52,39 +52,45 @@ ul {
 }
 /*顶部设置*/
 .dm_header {
-  height: 1.49333333rem;
+  height: 2.13333333rem;
   width: 100%;
   background-color: rgba(202, 215, 226, 0.3);
   position: relative;
 }
 .dm_header .header_logo {
-  width: 1.28rem;
-  height: 0.768rem;
+  width: 1.70666667rem;
+  height: 1.19466667rem;
   position: absolute;
-  right: 2.24rem;
-  top: 0.256rem;
+  right: 0;
+  left: 9.17333333rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   background-image: url("../images/search.png");
-  background-size: 0.85333333rem 0.85333333rem;
+  background-size: 0.96rem 0.96rem;
   background-repeat: no-repeat;
 }
 .dm_header .header_logo2 {
-  width: 1.28rem;
-  height: 0.768rem;
+  width: 1.70666667rem;
+  height: 1.19466667rem;
   position: absolute;
-  right: 0.42666667rem;
-  top: 0.256rem;
+  right: 0;
+  left: 13.86666667rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   background-image: url("../images/man.png");
   background-size: 0.85333333rem 0.85333333rem;
   background-repeat: no-repeat;
 }
 .dm_header .header_logo3 {
-  width: 3.41333333rem;
-  height: 1.408rem;
+  width: 3.84rem;
+  height: 1.83466667rem;
   position: absolute;
-  left: 0.10666667rem;
-  top: 0.17066667rem;
+  left: 0.21333333rem;
+  top: 0.27733333rem;
   background-image: url("../images/LOO.png");
-  background-size: 3.2rem 1.28rem;
+  background-size: 3.84rem 1.70666667rem;
   background-repeat: no-repeat;
 }
 /*lunbo*/

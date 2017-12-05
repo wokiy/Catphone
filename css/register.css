@@ -1,0 +1,150 @@
+.register_container {
+  width: 100%;
+  background: #F3F5F8;
+  position: relative;
+}
+.register_container .register_head {
+  position: relative;
+  width: 100%;
+  height: 2.13333333rem;
+  background: #FFFFFF;
+}
+.register_container .register_head .login_head_title {
+  position: absolute;
+  right: 0.64rem;
+  top: 0.64rem;
+  color: #55C1DD ;
+  font-size: 0.61866667rem;
+}
+.register_container .register_head .head_logo1 {
+  width: 1.28rem;
+  height: 0.93866667rem;
+  position: absolute;
+  left: 0.64rem;
+  top: 0.59733333rem;
+  background-image: url("../images/back.png");
+  background-size: 1.06666667rem 1.06666667rem;
+  background-repeat: no-repeat;
+}
+.register_container .register_head .head_title {
+  position: absolute;
+  left: 7.33866667rem;
+  top: 0.72533333rem;
+  font-weight: 600;
+}
+.register_container .register_head .hr1 {
+  height: 1px;
+  width: 100%;
+  background: rgba(223, 223, 223, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+.register_container .content_form {
+  width: 100%;
+  margin-top: 0.64rem;
+}
+.register_container .content_form .form_d1 {
+  width: 100%;
+  height: 2.13333333rem;
+}
+.register_container .content_form .form_d1 #username {
+  padding-left: 0.42666667rem;
+  width: 100%;
+  height: 100%;
+}
+.register_container .content_form .form_d2 {
+  margin-top: 2px;
+  width: 100%;
+  height: 2.13333333rem;
+  background: #FFFFFF;
+  position: relative;
+}
+.register_container .content_form .form_d2 #code {
+  padding-left: 0.42666667rem;
+  width: 11.56266667rem;
+  height: 100%;
+}
+.register_container .content_form .form_d2 img {
+  position: absolute;
+  right: 0.512rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 3.84rem;
+}
+.register_container .content_form .form_d3 {
+  margin-top: 2px;
+  width: 100%;
+  height: 2.13333333rem;
+  background: #FFFFFF;
+  position: relative;
+}
+.register_container .content_form .form_d3 #message {
+  padding-left: 0.42666667rem;
+  width: 11.56266667rem;
+  height: 100%;
+}
+.register_container .content_form .form_d3 img {
+  position: absolute;
+  right: 0.512rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 3.84rem;
+}
+.register_container .content_form .form_d4 {
+  margin-top: 2px;
+  width: 100%;
+  height: 2.13333333rem;
+}
+.register_container .content_form .form_d4 #password {
+  padding-left: 0.42666667rem;
+  width: 100%;
+  height: 100%;
+}
+.register_container .content_form .form_p1 {
+  margin-left: 2.98666667rem;
+  margin-top: 0.64rem;
+}
+.register_container .content_form .Login_form_p1 {
+  margin-left: 0.64rem;
+  margin-top: 0.64rem;
+  color: #55C1DD ;
+}
+.register_container .content_form .form_d5 {
+  width: 100%;
+  height: 1.92rem;
+  margin-top: 0.66133333rem;
+}
+.register_container .content_form .form_d5 #register_do {
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  font-size: 1.024rem;
+  background: #E1E9F0;
+}
+.register_container .other {
+  width: 100%;
+  margin-top: 1.49333333rem;
+}
+.register_container .other img {
+  width: 100%;
+}
+.register_container .ohter_login {
+  width: 100%;
+  height: 2.176rem;
+}
+.register_container .ohter_login a {
+  display: inline-block;
+}
+.register_container .ohter_login a img {
+  width: 2.15466667rem;
+}
+.register_container .ohter_login a:nth-of-type(1) {
+  margin-top: 1.06666667rem;
+  margin-left: 4.90666667rem;
+}
+.register_container .ohter_login a:nth-of-type(2) {
+  margin-top: 1.06666667rem;
+  margin-left: 1.92rem;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>注册</title>
+    <script type="text/javascript">
+        /*  document.addEventListener("touchstart",function (ev) {
+              ev = ev || event;
+              ev.preventDefault();
+          });*/
+        (function () {
+            let styleNode = document.createElement("style");
+            let width = document.documentElement.clientWidth/16;
+            styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+            document.head.appendChild(styleNode);
+        })();
+    </script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body style="background-color:#F3F5F8;">
+    <div class="register_container">
+        <div class="register_head">
+            <a href="index.html" class="head_logo1"></a>
+            <span class="head_title">注册账户</span>
+            <div class="hr1"></div>
+        </div>
+        <!--表单-->
+        <div class="content_form">
+            <form action="#">
+                <div class="form_d1">
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="手机号/邮箱">
+                </div>
+                <div class="form_d2">
+                    <label for="code"></label>
+                    <input type="text" id="code" name="code" placeholder="请输入要验证码">
+                    <img src="images/code.png" alt="">
+                </div>
+                <div class="form_d3">
+                    <label for="message"></label>
+                    <input type="text" id="message" name="message" placeholder="短信验证码">
+                    <img src="images/code2.png" alt="">
+                </div>
+                <div class="form_d4">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="密码">
+                </div>
+                <div class="form_p1">
+                    创建账户你已经同意大猫旅游的条款!!!!
+                </div>
+                <div class="form_d5">
+                    <input type="button" id="register_do" value="注册">
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

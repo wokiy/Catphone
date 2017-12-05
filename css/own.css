@@ -1,0 +1,174 @@
+.own_container {
+  width: 100%;
+  position: relative;
+  background: #F3F5F8;
+}
+.own_container .own_head {
+  position: relative;
+  width: 100%;
+  height: 2.13333333rem;
+  background: #FFFFFF;
+}
+.own_container .own_head .head_logo1 {
+  width: 1.28rem;
+  height: 0.93866667rem;
+  position: absolute;
+  left: 0.64rem;
+  top: 0.59733333rem;
+  background-image: url("../images/set.png");
+  background-size: 1.06666667rem 1.06666667rem;
+  background-repeat: no-repeat;
+}
+.own_container .own_head .head_title {
+  position: absolute;
+  left: 7.33866667rem;
+  top: 0.72533333rem;
+  font-weight: 600;
+}
+.own_container .own_head .hr1 {
+  height: 1px;
+  width: 100%;
+  background: rgba(223, 223, 223, 0.5);
+  position: absolute;
+  bottom: 0;
+}
+.own_container .login_state {
+  width: 100%;
+  margin-top: 0.42666667rem;
+  height: 3.30666667rem;
+  background: #FFFFFF;
+  position: relative;
+}
+.own_container .login_state a:nth-of-type(1) img {
+  display: inline-block;
+  width: 2.496rem;
+  border-radius: 42%;
+  margin-left: 0.85333333rem;
+  margin-top: 0.42666667rem;
+}
+.own_container .login_state a:nth-of-type(2) img {
+  position: absolute;
+  right: 0.512rem;
+  width: 1.06666667rem;
+  top: 1.06666667rem;
+}
+.own_container .login_state span {
+  display: inline-block;
+  position: absolute;
+  top: 1.06666667rem;
+  left: 4.05333333rem;
+  font-size: 0.59733333rem;
+  font-weight: 600;
+}
+.own_container .message {
+  width: 100%;
+  height: 1.57866667rem;
+  margin-top: 0.08533333rem;
+  background: #FFFFFF;
+  position: relative;
+}
+.own_container .message .nothing {
+  height: 70%;
+  width: 1px;
+  position: absolute;
+  top: 0.21333333rem;
+  bottom: 0.21333333rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: silver;
+}
+.own_container .message .message_1 span {
+  position: absolute;
+  top: 0.42666667rem;
+  bottom: 0rem;
+  left: 2.77333333rem;
+  margin: auto;
+}
+.own_container .message .message_2 span {
+  position: absolute;
+  top: 0.42666667rem;
+  bottom: 0rem;
+  right: 2.77333333rem;
+  margin: auto;
+}
+.own_container .order {
+  width: 100%;
+  height: 2.66666667rem;
+  background: #FFFFFF;
+  margin-top: 0.42666667rem;
+  position: relative;
+}
+.own_container .order .nothing1 {
+  height: 60%;
+  width: 1px;
+  position: absolute;
+  top: 0.21333333rem;
+  bottom: 0.21333333rem;
+  left: 5.33333333rem;
+  margin: auto;
+  background: silver;
+}
+.own_container .order .nothing2 {
+  height: 60%;
+  width: 1px;
+  position: absolute;
+  top: 0.21333333rem;
+  bottom: 0.21333333rem;
+  left: 10.66666667rem;
+  margin: auto;
+  background: silver;
+}
+.own_container .order .order_1 {
+  margin-left: 2.09066667rem;
+  margin-top: 0.53333333rem;
+}
+.own_container .order .order_1 a img {
+  width: 0.85333333rem;
+  margin-left: 0.53333333rem;
+}
+.own_container .order .order_1 a span {
+  color: #000;
+}
+.own_container .order .order_2 {
+  margin-left: 2.77333333rem;
+  margin-top: 0.53333333rem;
+}
+.own_container .order .order_2 a img {
+  margin-left: 0.34133333rem;
+  width: 0.85333333rem;
+}
+.own_container .order .order_2 a span {
+  color: #000;
+}
+.own_container .order .order_3 {
+  margin-left: 3.41333333rem;
+  margin-top: 0.53333333rem;
+}
+.own_container .order .order_3 a img {
+  margin-left: 0.34133333rem;
+  width: 0.85333333rem;
+}
+.own_container .order .order_3 a span {
+  color: #000;
+}
+.own_container .taobao_order {
+  width: 100%;
+  height: 2.41066667rem;
+  background: #FFFFFF;
+  margin-top: 0.42666667rem;
+  position: relative;
+}
+.own_container .taobao_order img {
+  width: 0.85333333rem;
+  margin-left: 0.42666667rem;
+  margin-top: 0.85333333rem;
+}
+.own_container .taobao_order span {
+  position: absolute;
+  left: 1.77066667rem;
+  top: 0.93866667rem;
+}
+.own_container .nothing4 {
+  height: 2.34666667rem;
+}

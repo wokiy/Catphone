@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>我的</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/own.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script type="text/javascript">
+        /*  document.addEventListener("touchstart",function (ev) {
+              ev = ev || event;
+              ev.preventDefault();
+          });*/
+        (function () {
+            let styleNode = document.createElement("style");
+            let width = document.documentElement.clientWidth/16;
+            styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+            document.head.appendChild(styleNode);
+        })();
+    </script>
+</head>
+<body>
+    <div class="own_container">
+        <div class="own_head">
+            <a href="index.html" class="head_logo1"></a>
+            <span class="head_title">我的</span>
+            <div class="hr1"></div>
+        </div>
+        <div class="login_state">
+            <a href="#"><img src="images/demo.png" alt=""></a>
+            <span>未登录</span>
+            <a href="#"><img src="images/more.png" alt=""></a>
+        </div>
+        <div class="message">
+            <div class="message_1 f_l">
+                <span>优惠卷</span>
+            </div>
+            <div class="nothing "></div>
+            <div class="message_2 f_r">
+                <span>我的点评</span>
+            </div>
+        </div>
+        <div class="order">
+                <div class="order_1 f_l">
+                    <a href="#">
+                        <img src="images/RFQ.png" alt="">
+                        <br>
+                        <span>全部订单</span>
+                    </a>
+                </div>
+                <div class="nothing1"></div>
+            <div class="order_2 f_l">
+                <a href="#">
+                    <img src="images/save.png" alt="">
+                    <br>
+                    <span>待付款</span>
+                </a>
+            </div>
+            <div class="nothing2"></div>
+            <div class="order_3 f_l">
+                <a href="#">
+                    <img src="images/edit.png" alt="">
+                    <br>
+                    <span>待评价</span>
+                </a>
+            </div>
+        </div>
+        <div class="taobao_order">
+            <img src="images/atm.png" alt=""><span>淘宝订单</span>
+        </div>
+        <div class="taobao_order">
+            <img src="images/aaa.png" alt=""><span>常出行人</span>
+        </div>
+        <div class="taobao_order">
+            <img src="images/favorites.png" alt=""><span>我的收藏</span>
+        </div>
+        <div class="taobao_order">
+            <img src="images/ppp.png" alt=""><span>客服电话</span>
+        </div>
+        <div class="taobao_order">
+            <img src="images/remind.png" alt=""><span>店长推荐</span>
+        </div>
+        <div class="taobao_order">
+            <img src="images/remind.png" alt=""><span>酒店推荐</span>
+        </div>
+        <div class="nothing4"></div>
+        <div class="footer">
+            <div class="hr1"></div>
+            <ul class="footer-list">
+                <li><a href="index.html"><img src="images/wxb主页.png" alt=""></a><br>主页
+                </li>
+                <li><img src="images/wxb定位.png" alt=""><br>定位
+                </li>
+                <li><img src="images/cart.png" alt=""><br>购物车
+                </li>
+                <li><img src="images/man.png" alt=""><br>我的
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

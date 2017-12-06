@@ -10,12 +10,14 @@
               ev = ev || event;
               ev.preventDefault();
           });*/
-        (function () {
-            let styleNode = document.createElement("style");
-            let width = document.documentElement.clientWidth/16;
-            styleNode.innerHTML = "html{font-size:"+width+"px!important}";
-            document.head.appendChild(styleNode);
-        })();
+        window.onload =function () {
+            (function () {
+                var styleNode = document.createElement("style");
+                var width = document.documentElement.clientWidth/16;
+                styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+                document.head.appendChild(styleNode);
+            })();
+        }
     </script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/content.css">
@@ -94,11 +96,13 @@
         <!--留白位置-->
         <div class="liubai"></div>
         <div class=" IN_footer clearfix">
-            <div class="hr3"></div>
+            <!--<div class="hr3"></div>
             <div class="footer_type_l f_l">全部类型 <img src="images/up1.png" alt=""></div>
             <div class="footer_span"></div>
             <div class="footer_type_r f_r">最高销量 <img src=" images/up1.png" alt=""></dmg<>
-            </div>
+            </div>-->
+            <div><span>全部分类</span><img src="images/up1.png" alt=""></div>
+            <div><span>最高销量</span><img src="images/up1.png" alt=""></div>
         </div>
     </div>
 </body>

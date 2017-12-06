@@ -167,22 +167,21 @@
   color: #A4A3A8;
 }
 .de_container .footer {
-  width: 100%;
+  width: 90%;
   position: fixed;
   bottom: 0;
   background: #FFFFFF;
   text-align: center;
   height: 2.13333333rem;
+  border: 1px silver solid;
   line-height: 2.13333333rem;
+  margin-left: 0.64rem;
+  border-radius: 0.21333333rem;
+  border-bottom: 0;
   display: flex;
 }
-.de_container .footer .footer_border {
-  position: absolute;
-  top: 0;
-  height: 1px;
-  width: 90%;
-  margin-left: 0.74666667rem;
-  background: #A4A3A8;
+.de_container .footer .img_atm img {
+  margin-right: 0.85333333rem;
 }
 .de_container .footer .A a {
   display: inline-block;
@@ -206,5 +205,5 @@
   width: 0.96rem;
 }
 .de_container .nothing6 {
-  height: 1.70666667rem;
+  height: 2.24rem;
 }

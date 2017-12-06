@@ -1,0 +1,210 @@
+.de_container {
+  width: 100%;
+  position: relative;
+}
+.de_container .dm_banner {
+  width: 100%;
+  height: 16.21333333rem;
+  /*小图标调整*/
+}
+.de_container .dm_banner .banner_right {
+  width: 1.38666667rem;
+  height: 1.38666667rem;
+  border-radius: 50%;
+  border-shadow: 0.02133333rem;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0.64rem;
+  left: 0.64rem;
+}
+.de_container .dm_banner .banner_right a {
+  width: 100%;
+}
+.de_container .dm_banner .banner_right a img {
+  width: 100%;
+}
+.de_container .dm_banner .banner_collection {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border-shadow: 0.02133333rem;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 5.12rem;
+  right: 0.64rem;
+  box-shadow: 0px 1px lightgrey;
+}
+.de_container .dm_banner .banner_collection a {
+  line-height: 57px;
+  padding-left: 3px;
+  width: 100%;
+}
+.de_container .dm_banner .banner_collection a img {
+  width: 1.28rem;
+}
+.de_container .dm_banner .banner_title {
+  margin-top: 0.85333333rem;
+  font-size: 0.74666667rem;
+  margin-left: 0.704rem;
+  font-weight: 600;
+}
+.de_container .dm_banner .banner_selled {
+  margin-top: 0.704rem;
+  margin-left: 0.64rem;
+  color: #A4A3A8;
+}
+.de_container .dm_banner .de_banner_index {
+  bottom: 5.76rem;
+}
+.de_container .dm_banner .banner_price {
+  position: absolute;
+  bottom: 0.64rem;
+  right: 0.64rem;
+}
+.de_container .dm_banner .banner_price span {
+  color: red;
+  font-size: 0.81066667rem;
+}
+.de_container .dm_banner .banner_price i:nth-of-type(1) {
+  font-size: 0.36266667rem;
+}
+.de_container .dm_banner .banner_price i:nth-of-type(2) {
+  font-size: 0.29866667rem;
+  color: #A4A3A8;
+}
+.de_container .dm_banner .hr4 {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 14.72rem;
+  margin-left: 0.64rem;
+  background: silver;
+}
+.de_container .tap {
+  margin-top: 0.64rem;
+  width: 100%;
+  height: 2.13333333rem;
+  display: flex;
+  line-height: 2.13333333rem;
+}
+.de_container .tap div {
+  flex: 1;
+  text-align: center;
+}
+.de_container .tap div a {
+  color: #000;
+}
+.de_container .de_goods_light {
+  width: 100%;
+  position: relative;
+}
+.de_container .de_goods_light:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 1px;
+  left: 0.64rem;
+  background: #bdb2b2;
+  transform: scaleY(0.5);
+}
+.de_container .de_goods_light .nothing1 {
+  width: 100%;
+  height: 1.088rem;
+}
+.de_container .de_goods_light h1 {
+  text-align: center;
+  margin-top: 1.45066667rem;
+}
+.de_container .de_goods_light .light_act {
+  margin-top: 1.472rem;
+  margin-left: 0.78933333rem;
+  width: 90%;
+}
+.de_container .de_goods_light .light_act h2 {
+  text-align: center;
+  margin-bottom: 0.42666667rem;
+  font-size: 0.64rem;
+  color: #595959;
+}
+.de_container .de_goods_light .light_act img {
+  width: 100%;
+}
+.de_container .de_goods_light .light_act span {
+  color: #A4A3A8;
+}
+.de_container .de_goods_light .light_act1 {
+  margin-top: 0.85333333rem;
+  margin-left: 0.78933333rem;
+  width: 90%;
+}
+.de_container .de_goods_light .light_act1 img {
+  width: 100%;
+}
+.de_container .de_goods_light .light_act1 span {
+  color: #A4A3A8;
+}
+.de_container .de_goods_light1 {
+  width: 100%;
+  position: relative;
+  margin-top: 2.56rem;
+}
+.de_container .de_goods_light1 .nothing1 {
+  width: 100%;
+  height: 1.088rem;
+}
+.de_container .de_goods_light1 h1 {
+  text-align: center;
+  margin-top: 1.45066667rem;
+}
+.de_container .de_goods_light1 .light_act {
+  margin-top: 1.472rem;
+  margin-left: 0.78933333rem;
+  width: 90%;
+}
+.de_container .de_goods_light1 .light_act span {
+  color: #A4A3A8;
+}
+.de_container .footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #FFFFFF;
+  text-align: center;
+  height: 2.13333333rem;
+  line-height: 2.13333333rem;
+  display: flex;
+}
+.de_container .footer .footer_border {
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: 90%;
+  margin-left: 0.74666667rem;
+  background: #A4A3A8;
+}
+.de_container .footer .A a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  background: #55C1DD;
+}
+.de_container .footer .B a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  background: #FC5D7B;
+}
+.de_container .footer div {
+  flex: 1;
+}
+.de_container .footer div img {
+  margin-top: 0.64rem;
+  width: 0.96rem;
+}
+.de_container .nothing6 {
+  height: 1.70666667rem;
+}

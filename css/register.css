@@ -13,6 +13,8 @@
   position: absolute;
   right: 0.64rem;
   top: 0.64rem;
+}
+.register_container .register_head .login_head_title a {
   color: #55C1DD ;
   font-size: 0.61866667rem;
 }
@@ -31,6 +33,7 @@
   left: 7.33866667rem;
   top: 0.72533333rem;
   font-weight: 600;
+  font-size: 0.59733333rem;
 }
 .register_container .register_head .hr1 {
   height: 1px;

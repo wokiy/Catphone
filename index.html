@@ -10,13 +10,14 @@
             ev = ev || event;
             ev.preventDefault();
         });*/
-        (function () {
-            let styleNode = document.createElement("style");
-            let width = document.documentElement.clientWidth/16;
-            styleNode.innerHTML = "html{font-size:"+width+"px!important}";
-            document.head.appendChild(styleNode);
-        })();
-
+      window.onload =function () {
+          (function () {
+              var styleNode = document.createElement("style");
+              var width = document.documentElement.clientWidth/16;
+              styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+              document.head.appendChild(styleNode);
+          })();
+      }
     </script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
@@ -73,7 +74,7 @@
         <div class="content_recommend2 content_selected">
             <p class="selected_title">海上玩乐七十二变</p>
             <ul class="recommend_img_list clearfix">
-                <li><a href="#"><img src="images/shop1.jpg" alt=""></a>
+                <li><a href="detail.html"><img src="images/shop1.jpg" alt=""></a>
                     <p class="p_text">云南丽江接机 丽江三义机场到丽江古城 束河古镇 面包车接机</p>
                     <span class="shop_num">已售200份</span>
                     <span class="shop_price"><i>￥500</i><em>起</em></span>
@@ -94,7 +95,7 @@
         <div class="content_recommend2 content_selected">
             <p class="selected_title">做个SPA轻松一下</p>
             <ul class="recommend_img_list clearfix">
-                <li><a href="#"><img src="images/shop3.jpg" alt=""></a>
+                <li><a href="detail.html"><img src="images/shop3.jpg" alt=""></a>
                     <p class="p_text">SPA油控出人没梦想体验台式SPA让身体彻底放松</p>
                     <span class="shop_num">已售200份</span>
                     <span class="shop_price"><i>￥500</i><em>起</em></span>

@@ -101,6 +101,7 @@
       text-align: center;
       a {
         color: #000;
+        font-size: 28/@rem;
       }
     }
   }
@@ -125,6 +126,7 @@
     h1 {
       text-align: center;
       margin-top: 68/@rem;
+      font-size: 28/@rem;
     }
     .light_act {
       margin-top: 69/@rem;
@@ -140,6 +142,7 @@
         width: 100%;
       }
       span {
+        font-size: 26/@rem    ;
         color: #A4A3A8;
       }
     }
@@ -152,6 +155,7 @@
       }
       span {
         color: #A4A3A8;
+        font-size: 26/@rem;
       }
     }
   }
@@ -165,6 +169,7 @@
     }
     h1 {
       text-align: center;
+      font-size: 28/@rem;
       margin-top: 68/@rem;
     }
     .light_act {
@@ -175,6 +180,118 @@
         color: #A4A3A8;
       }
     }
+  }
+  /*评分顶部说明*/
+  .user_score{
+    width: 100%;
+    height: 200/@rem;
+    .score_left{
+      background: #F3F5F8;
+      border-radius: 5/@rem;
+      border:1px silver solid;
+      margin-left: 25/@rem;
+      width: 214/@rem;
+      height: 100%;
+      text-align: center;
+      line-height: 70/@rem;
+      .score_left_score{
+        font-size: 28/@rem;
+        font-weight: 600;
+      }
+      .score_left_comm{
+        color: #9EB1C9;
+        font-size: 16/@rem;
+      }
+      .score_left_star{
+        em{
+          display: inline-block;
+          width: 25/@rem;
+          height: 25/@rem;
+          background-image: url("../images/start_red.png");
+          background-size: 25/@rem 25/@rem;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .score_right{
+      width: 506/@rem;
+      height: 180/@rem;
+      text-align: center;
+      line-height: 60/@rem;
+      margin-top: 10/@rem;
+      .score_right1{
+        display: flex;
+        span{
+          flex: 1;
+          font-size: 24/@rem;
+        }
+        .score_right1_star1{
+          em{
+            display: inline-block;
+            width: 27/@rem;
+            height: 27/@rem;
+            background-image: url("../images/start_red.png");
+            background-size: 27/@rem 27/@rem;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+  }
+  .comm_list{
+    width: 100%;
+    margin-top: 64/@rem;
+    position: relative;
+    .comm_list_1{
+      span{
+        padding: 0 30/@rem;
+        color: #9E9E9E;
+        font-size: 28/@rem;
+      }
+      .score_right1_star1{
+        em{
+          display: inline-block;
+          width: 27/@rem;
+          height: 27/@rem;
+          background-image: url("../images/start_red.png");
+          background-size: 27/@rem 27/@rem;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .comm_list_2_title{
+      color: #9E9E9E;
+      font-size: 16/@rem;
+      padding-left: 30/@rem;
+      margin-top: 17/@rem;
+    }
+    .comm_list_3_content{
+      width: 100%;
+      margin-top: 43/@rem;
+      padding: 0 30/@rem;
+      font-size: 30/@rem;
+    }
+    .comm_list_4_time{
+      padding-left: 30/@rem;
+      font-size: 15/@rem;
+      color: #9E9E9E;
+      margin-top: 34/@rem;
+    }
+    .hr7{
+      position: absolute;
+      bottom: -35/@rem;;
+      height: 1px;
+      width: 90%;
+      left: 30/@rem;
+      background:#9E9E9E;
+    }
+  }
+  .clickmore_comm_list{
+    width: 100%;
+    height: 40/@rem;
+    margin-top: 80/@rem;
+    text-align: center;
+    font-size: 28/@rem;
   }
   .footer {
     width: 90%;
@@ -223,6 +340,6 @@
 
   }
   .nothing6 {
-    height: 105/@rem;
+    height: 140/@rem;
   }
 }

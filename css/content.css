@@ -172,11 +172,16 @@
 }
 .IN_contanier .IN_footer div {
   flex: 1;
+  position: relative;
+}
+.IN_contanier .IN_footer div span {
+  font-size: 0.59733333rem;
 }
 .IN_contanier .IN_footer div img {
-  margin-left: 0.192rem;
+  position: absolute;
+  top: 0.704rem;
+  left: 5.33333333rem;
   width: 0.64rem;
-  padding-top: 0.21333333rem;
 }
 .IN_contanier .liubai {
   width: 100%;

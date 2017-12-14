@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>搜索</title>
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <title>大猫旅行</title>
+            <script type="text/javascript">
+                /* document.addEventListener("touchstart",function (ev) {
+                     ev = ev || event;
+                     ev.preventDefault();
+                 });*/
+                window.onload =function () {
+                    (function () {
+                        var styleNode = document.createElement("style");
+                        var width = document.documentElement.clientWidth/16;
+                        styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+                        document.head.appendChild(styleNode);
+                    })();
+                }
+            </script>
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet" href="css/search.css">
+        </head>
+<body>
+<div class="search_container">
+    <div class="search_head">
+        <span class="search_img"></span>
+        <input type="text"  placeholder="搜索目的地"/>
+        <span class="line"></span>
+        <!--在vue 设计中使用this.$router.back路由回到之前点技搜索的页面-->
+        <a href="index.html">取消</a>
+        <div class="hr"></div>
+    </div>
+    <div class="mian">
+        <div class="search_content">
+
+        </div>
+        <div class="search_history">
+
+        </div>
+    </div>
+</div>
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

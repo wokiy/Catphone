@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>定位</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>大猫旅行</title>
+    <script type="text/javascript">
+       /* document.addEventListener("touchstart",function (ev) {
+            ev = ev || event;
+            ev.preventDefault();
+        });*/
+        window.onload =function () {
+            (function () {
+                var styleNode = document.createElement("style");
+                var width = document.documentElement.clientWidth/16;
+                styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+                document.head.appendChild(styleNode);
+            })();
+        }
+    </script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/category.css">
+</head>
+<body>
+    <div class="cate_container">
+        <div class="cate_head">
+            <div class="find">
+                <span class="find_img">搜索目的地</span>
+            </div>
+            <span class="cate_head_img"></span>
+        </div>
+    </div>
+</body>
+</html>

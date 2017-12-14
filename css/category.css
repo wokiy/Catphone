@@ -1,0 +1,41 @@
+/*严格加分号 #F3F5F8*/
+.cate_container {
+  width: 100%;
+}
+.cate_container .cate_head {
+  height: 2.13333333rem;
+  position: relative;
+  width: 100%;
+}
+.cate_container .cate_head .find {
+  margin-top: 0.512rem;
+  margin-left: 0.512rem;
+  text-align: center;
+  line-height: 1.344rem;
+  width: 13.52533333rem;
+  height: 1.344rem;
+  background-color: #F3F5F8;
+  border: 1px solid #E1E9F0;
+  border-radius: 0.64rem;
+}
+.cate_container .cate_head .find .find_img {
+  display: inline-block;
+  color: #AAA0B1;
+  font-size: 0.59733333rem;
+  padding-left: 1.13066667rem;
+  line-height: 0.87466667rem;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-size: 0.85333333rem 0.85333333rem;
+}
+.cate_container .cate_head .cate_head_img {
+  display: inline-block;
+  position: absolute;
+  top: 0.21333333rem;
+  right: 0.512rem;
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+  background-image: url("../images/service.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

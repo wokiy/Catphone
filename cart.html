@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>购物车</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>大猫旅行</title>
+    <script type="text/javascript">
+         document.addEventListener("touchstart",function (ev) {
+              ev = ev || event;
+              ev.preventDefault();
+          });
+        window.onload =function () {
+            (function () {
+                var styleNode = document.createElement("style");
+                var width = document.documentElement.clientWidth/16;
+                styleNode.innerHTML = "html{font-size:"+width+"px!important}";
+                document.head.appendChild(styleNode);
+            })();
+        }
+    </script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="cart_container">
+        <div class="cart_header">
+            <!--在vue不用 a 标签  直接路由回调 this.$router.back 既可以-->
+            <a href="index.html" class="back_img"></a>
+            <span>购物车</span>
+            <div class="header_hr"></div>
+        </div>
+        <!--没有登陆时候-->
+        <div class="cart_content">
+            <span class="not_login_image"></span>
+            <br>
+            <a class="login_btn" href="login.html">立即登陆</a>
+        </div>
+    </div>
+
+</body>
+</html>

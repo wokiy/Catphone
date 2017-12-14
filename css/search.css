@@ -6,13 +6,20 @@
   height: 1.81333333rem;
   position: relative;
 }
+.search_container .search_head .hr {
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #E1E9F0;
+}
 .search_container .search_head .line {
   display: inline-block;
-  width: 0.02133333rem;
+  width: 1px;
   height: 1.28rem;
-  background: salmon;
+  background: #E1E9F0;
   position: absolute;
-  top: 0;
+  top: 0.32rem;
   right: 2.13333333rem;
 }
 .search_container .search_head a {
@@ -23,6 +30,7 @@
 }
 .search_container .search_head input {
   display: inline-block;
+  width: 11.73333333rem;
   padding-top: 0.27733333rem;
   padding-left: 0.10666667rem;
   padding-bottom: 0.27733333rem;
@@ -39,4 +47,89 @@
   background-image: url("../images/search.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.search_container .mian {
+  width: 100%;
+  margin-top: 0.53333333rem;
+}
+.search_container .mian .search_content {
+  position: relative;
+  width: 100%;
+}
+.search_container .mian .search_content span {
+  margin-left: 0.53333333rem;
+  color: #8FA0B1;
+}
+.search_container .mian .search_content .search_result {
+  position: relative;
+}
+.search_container .mian .search_content .search_result .name_in_left {
+  font-size: 0.59733333rem;
+  font-weight: 600;
+  margin-left: 1.06666667rem;
+  margin-top: 0.64rem;
+  height: 1.92rem;
+}
+.search_container .mian .search_content .search_result .target_in_right {
+  width: 2.13333333rem;
+  height: 0.91733333rem;
+  border: 1px solid #8FA0B1;
+  border-radius: 0.08533333rem;
+  color: #8FA0B1;
+  font-size: 0.384rem;
+  text-align: center;
+  line-height: 0.91733333rem;
+  margin-right: 0.53333333rem;
+}
+.search_container .mian .search_content .search_result .hr {
+  height: 1px;
+  width: 15.01866667rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #E1E9F0;
+  text-align: center;
+}
+.search_container .mian .search_content .related {
+  width: 100%;
+}
+.search_container .mian .search_content .related p {
+  margin-left: 1.06666667rem;
+  margin-top: 0.64rem;
+  font-size: 0.59733333rem;
+  color: #000000;
+  font-weight: 600;
+}
+.search_container .mian .search_content .related p i {
+  color: #63C4DE;
+  /*取消斜体*/
+  font-style: normal;
+}
+.search_container .mian .search_history {
+  margin-top: 1.87733333rem;
+}
+.search_container .mian .search_history span {
+  margin-left: 0.53333333rem;
+}
+.search_container .mian .search_history .history_content {
+  position: relative;
+  height: 1.92rem;
+  margin: 0.64rem 0 0 0rem;
+}
+.search_container .mian .search_history .history_content p {
+  color: #000000;
+  font-size: 0.59733333rem;
+  font-weight: 600;
+  margin-left: 1.06666667rem;
+}
+.search_container .mian .search_history .history_content .hr {
+  height: 1px;
+  width: 15.01866667rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #E1E9F0;
+}
+.search_container .mian .search_history span {
+  color: #8FA0B1;
 }

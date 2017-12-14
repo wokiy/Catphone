@@ -39,3 +39,49 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cate_container .main {
+  width: 100%;
+  background: #F3F5F8;
+  height: 23.808rem;
+}
+.cate_container .main .main_left {
+  width: 3.94666667rem;
+}
+.cate_container .main .main_left ul {
+  width: 100%;
+  text-align: center;
+  line-height: 2.66666667rem;
+}
+.cate_container .main .main_left ul .current {
+  background: #FFFFFF;
+  border-left: 2px solid #84C8DE;
+}
+.cate_container .main .main_left ul .current a {
+  color: #84C8DE;
+}
+.cate_container .main .main_left ul li {
+  height: 2.66666667rem;
+  display: block;
+  width: 100%;
+  font-size: 0.59733333rem;
+  font-weight: 600;
+}
+.cate_container .main .main_left ul li a {
+  display: block;
+  color: #000000;
+}
+.cate_container .main .main_right {
+  overflow: hidden;
+  background: #FFFFFF;
+  height: 23.59466667rem;
+  width: 11.98933333rem;
+}
+.cate_container .main .main_right ul li {
+  float: left;
+  margin-left: 0.42666667rem;
+  margin-top: 0.21333333rem;
+}
+.cate_container .main .main_right ul li img {
+  width: 5.12rem;
+  height: auto;
+}

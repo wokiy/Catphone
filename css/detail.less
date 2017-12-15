@@ -2,64 +2,82 @@
 .de_container {
   width: 100%;
   position: relative;
+  .banner_title {
+    margin-top: 40/@rem;
+    font-size: 35/@rem;
+    margin-left: 33/@rem;
+    font-weight: 600;
+  }
+  .banner_selled {
+    margin-top: 33/@rem;
+    margin-left: 30/@rem;
+    color: #A4A3A8;
+  }
+  .banner_price {
+    position: absolute;
+    bottom: 30/@rem;
+    right: 30/@rem;
+    span {
+      color: red;
+      font-size: 38/@rem;
+    }
+    i:nth-of-type(1) {
+      font-size: 17/@rem;
+    }
+    i:nth-of-type(2) {
+      font-size: 14/@rem;
+      color: #A4A3A8;
+    }
+  }
+  .banner_collection {
+    width: 75/@rem;
+    height: 75/@rem;
+    border-radius: 50%;
+    border-shadow: 1/@rem;
+    background: #FFFFFF;
+    position: absolute;
+    top:440/@rem;
+    right: 30/@rem;
+    box-shadow: 0px 1px lightgrey;
+    a {
+      display: block;
+      line-height: 57px;
+      padding-left: 3px;
+      width: 100%;
+      position: relative;
+      img {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: -85/@rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 60/@rem;
+      }
+    }
+  }
+  .banner_right {
+    width: 65/@rem;
+    height: 65/@rem;
+    border-radius: 50%;
+    border-shadow: 1/@rem;
+    background: #FFFFFF;
+    position: absolute;
+    top: 30/@rem;
+    left: 30/@rem;
+    a {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
   .dm_banner {
     width: 100%;
-    height: 760/@rem;
-    .banner_right {
-      width: 65/@rem;
-      height: 65/@rem;
-      border-radius: 50%;
-      border-shadow: 1/@rem;
-      background: #FFFFFF;
-      position: absolute;
-      top: 30/@rem;
-      left: 30/@rem;
-      a {
-        width: 100%;
-        img {
-          width: 100%;
-        }
-      }
-    }
-    .banner_collection {
-      width: 75/@rem;
-      height: 75/@rem;
-      border-radius: 50%;
-      border-shadow: 1/@rem;
-      background: #FFFFFF;
-      position: absolute;
-      bottom: 240/@rem;
-      right: 30/@rem;
-      box-shadow: 0px 1px lightgrey;
-      a {
-        display: block;
-        line-height: 57px;
-        padding-left: 3px;
-        width: 100%;
-        position: relative;
-        img {
-          display: inline-block;
-          position: absolute;
-          top: 0;
-          bottom: -85/@rem;
-          left: 0;
-          right: 0;
-          margin: auto;
-          width: 60/@rem;
-
-        }
-      }
-    }
-    .banner_title {
-      margin-top: 40/@rem;
-      font-size: 35/@rem;
-      margin-left: 33/@rem;
-      font-weight: 600;
-    }
-    .banner_selled {
-      margin-top: 33/@rem;
-      margin-left: 30/@rem;
-      color: #A4A3A8;
+    height: 500/@rem;
+    .banner_index_detail{
+      bottom: 40/@rem ;
     }
     /*小图标调整*/
     .de_banner_index {
@@ -80,14 +98,6 @@
         font-size: 14/@rem;
         color: #A4A3A8;
       }
-    }
-    .hr4 {
-      position: absolute;
-      bottom: 0;
-      height: 1px;
-      width: 690/@rem;
-      margin-left: 30/@rem;
-      background: silver;
     }
   }
   .tap {

@@ -103,10 +103,12 @@ ul {
 .dm_banner .dm_banner_images {
   /*4倍宽度  横向 四张图片*/
   width: 600%;
+  -webkit-transform: translateX(-16.667%);
+  transform: translateX(-16.667%);
 }
 .dm_banner .dm_banner_images li {
   float: left;
-  width: 16.6667%;
+  width: 16.667%;
 }
 .dm_banner .dm_banner_images li a {
   display: block;
@@ -191,6 +193,7 @@ ul {
 /*精选*/
 .content_recommend2 .recommend_img_list {
   width: 300%;
+  /*根据改变consform:translateX(n)偏移量的值来滑动列表*/
 }
 .content_recommend2 .recommend_img_list li {
   float: left;

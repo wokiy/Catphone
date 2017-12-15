@@ -26,7 +26,8 @@ Cat移动端
 	vue 部分的源码后面再更新。
 ##原生js 实现首页无缝滑屏
     index.js 和public.js封装了无缝滑屏的js实现	
-	
+##原生js 实现detail无缝滑屏
+	index.js 和public.js封装了无缝滑屏的js实现	
 ##开始重构
  
     zepto实现轮播图和分类的页面布局实现

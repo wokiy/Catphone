@@ -5,54 +5,57 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>商品详情</title>
-    <script type="text/javascript">
-        /*  document.addEventListener("touchstart",function (ev) {
-              ev = ev || event;
-              ev.preventDefault();
-          });*/
-        window.onload = function(){
-            (function () {
-                var styleNode = document.createElement("style");
-                var width = document.documentElement.clientWidth/16;
-                styleNode.innerHTML = "html{font-size:"+width+"px!important}";
-                document.head.appendChild(styleNode);
-            })();
-            var tap1 = document.querySelector(".tap_1")
-            var tap3 = document.querySelector(".tap_3")
-
-            var id1 = document.getElementById("1")
-            var id3 = document.getElementById("3")
-            console.log(tap3)
-            tap1.addEventListener('touchstart',function (ev) {
-                var ev = ev ||event;
-                ev.preventDefault()
-                id3.style.display="none";
-                id1.style.display = "block";
-            })
-            tap3.addEventListener('touchstart',function (ev) {
-                var ev = ev ||event;
-                ev.preventDefault();
-                id1.style.display="none";
-                id3.style.display = "block";
-            })
-        }
-    </script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/detail.css">
     <link rel="stylesheet" href="css/home.css">
+    <script type="text/javascript">
+        (function () {
+            var styleNode = document.createElement("style");
+            var width = document.documentElement.clientWidth / 16;
+            styleNode.innerHTML = "html{font-size:" + width + "px!important}";
+            document.head.appendChild(styleNode);
+        })();
+    </script>
 </head>
 <body>
         <div class="de_container">
             <div class="dm_banner">
-                <div class="banner_right">
-                    <a href="shop_Introduce.html"><img src="images/backb.png" alt=""></a>
-                </div>
                 <ul class="dm_banner_images clearfix">
+                    <li><a href="#"><img src="https://static.cattour.cn/b8/b87bbc6cd1c5d768900e24485103e66a.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="https://static.cattour.cn/94/9486747f005b4ae83c0ca7fe38335901.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="https://static.cattour.cn/26/268e0d63fa71a15bb3a033ef5d28c1f8.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="https://static.cattour.cn/10/10f89781b6366835f99365f6de2f8406.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="https://static.cattour.cn/b8/b87bbc6cd1c5d768900e24485103e66a.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="https://static.cattour.cn/94/9486747f005b4ae83c0ca7fe38335901.jpg" alt=""></a></li>
+                </ul>
+                <ul class="banner_index banner_index_detail clearfix">
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="banner_right">
+                <a href="shop_Introduce.html"><img src="images/backb.png" alt=""></a>
+            </div>
+            <div class="banner_collection">
+                <a href="#"><img src="images/favoritesf.png" alt=""></a>
+            </div>
+            <div class="banner_title">日本札幌美景之旅 观看札幌世界夜景 观看美食之城的魅力 品尝白色恋人巧克力</div>
+            <div class="banner_selled">已售250份</div>
+            <div class="banner_price">
+                <i>￥</i>
+                <span>120</span>
+                <i>起</i>
+            </div>
+            <div class="hr4"></div>
+            <!--<div class="dm_banner">
+                <ul class="dm_banner_images">
                     <li><a href="shop_Introduce.html"><img src="images/TOP.jpg" alt=""></a></li>
                     <li><a href="#"><img src="images/lb1.jpg" alt=""></a></li>
                     <li><a href="#"><img src="images/lb2.jpg" alt=""></a></li>
                     <li><a href="#"><img src="images/lb3.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="images/lb4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/TOP.jpg" alt=""></a></li>
                     <li><a href="#"><img src="images/lb1.jpg" alt=""></a></li>
                 </ul>
                 <ul class="banner_index de_banner_index clearfix">
@@ -61,18 +64,7 @@
                     <li></li>
                     <li></li>
                 </ul>
-                <div class="banner_collection">
-                    <a href="#"><img src="images/favoritesf.png" alt=""></a>
-                </div>
-                <div class="banner_title">日本札幌美景之旅 观看札幌世界夜景 观看美食之城的魅力 品尝白色恋人巧克力</div>
-                <div class="banner_selled">已售250份</div>
-                <div class="banner_price">
-                    <i>￥</i>
-                    <span>120</span>
-                    <i>起</i>
-                </div>
-                <div class="hr4"></div>
-            </div>
+            </div>-->
             <!--产品亮点-->
             <div class="de_goods_light">
                 <h1>产品亮点</h1>
@@ -299,5 +291,7 @@
                     <div class="B"><a href="#">立即购买</a></div>
             </div>
         </div>
+        <script src="./js/public.js"></script>
+        <script src="./js/index.js"></script>
 </body>
 </html>

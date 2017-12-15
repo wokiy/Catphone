@@ -1,20 +1,14 @@
 window.onload = function () {
     banner();
-    (function () {
-        var styleNode = document.createElement("style");
-        var width = document.documentElement.clientWidth/16;
-        styleNode.innerHTML = "html{font-size:"+width+"px!important}";
-        document.head.appendChild(styleNode);
-    })();
 }
-function banner() {
+function banner(){
     /*
-      * 1.自动的滚动起来    （定时器，过渡）
-      * 2.点随之滚动起来     （改变当前点元素的样式）
-      * 3.图片滑动           （touch事件）
-      * 4.当不超过一定的滑动距离的时候  吸附回去  定位回去     （一定的距离  1/3  屏幕宽度  过渡）
-      * 5.当超过了一定的距离的时候    滚动  到上一张 或 下一张  （一定的距离  1/3  屏幕宽度  过渡）
-      * */
+     * 1.自动的滚动起来    （定时器，过渡）
+     * 2.点随之滚动起来     （改变当前点元素的样式）
+     * 3.图片滑动           （touch事件）
+     * 4.当不超过一定的滑动距离的时候  吸附回去  定位回去     （一定的距离  1/3  屏幕宽度  过渡）
+     * 5.当超过了一定的距离的时候    滚动  到上一张 或 下一张  （一定的距离  1/3  屏幕宽度  过渡）
+     * */
     /*获取到dom对象*/
     /*banner*/
     var banner = document.querySelector('.dm_banner');
@@ -43,9 +37,7 @@ function banner() {
         imageBox.style.webkitTransform = "translateX("+translateX+"px)";
         imageBox.style.transform = "translateX("+translateX+"px)";
     };
-
-
-    /*1.自动的滚动起来    （定时器，过渡）*/
+    /*1.自动的滚动起来（定时器，过渡）*/
     var index = 1;
     var timer = setInterval(function(){
         /*箱子滚动*/

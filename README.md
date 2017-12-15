@@ -36,7 +36,8 @@ Cat移动端
     
     实现实现目的地分类头部
     
- 
+ ##原生js index and detail无缝滑屏
+    实现和buy修改完成
    	
 	
 	

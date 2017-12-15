@@ -118,7 +118,6 @@ ul {
   display: block;
   width: 100%;
 }
-/*小图标*/
 .dm_banner .banner_index {
   position: absolute;
   bottom: 0.64rem;
@@ -133,7 +132,7 @@ ul {
   border: 1px solid white;
   margin-left: 0.10666667rem;
 }
-.dm_banner .banner_index li.current {
+.dm_banner .banner_index li .current {
   background-color: deeppink;
 }
 /*精选*/

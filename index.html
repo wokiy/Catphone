@@ -6,12 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>大猫旅行</title>
     <script type="text/javascript">
-      (function () {
-          var styleNode = document.createElement("style");
-          var width = document.documentElement.clientWidth / 16;
-          styleNode.innerHTML = "html{font-size:" + width + "px!important}";
-          document.head.appendChild(styleNode);
-      })();
+        (function () {
+            var styleNode = document.createElement("style");
+            var width = document.documentElement.clientWidth / 16;
+            styleNode.innerHTML = "html{font-size:" + width + "px!important}";
+            document.head.appendChild(styleNode);
+        })();
+        window.onload = function () {
+            document.addEventListener("touchstart",function (ev) {
+                ev = ev || event;
+                ev.preventDefault();
+            });
+        }
     </script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
@@ -44,6 +50,7 @@
             </ul>
         </div>
         <!--content 1精选频道-->
+
         <div class="content_selected">
             <p class="selected_title">精选频道</p>
                 <div class="selected f_l">
@@ -57,7 +64,7 @@
         <!--目的地推荐-->
             <div class="content_recommend content_selected">
                 <p class="selected_title">推荐目的地</p>
-                <ul class="recommend_img_list clearfix">
+                <ul class="recommend_img_list recommend_img_list_1 clearfix">
                     <li><a href="#"><img src="images/Rom1.png" alt=""></a></li>
                     <li><a href="#"><img src="images/Romm2.png" alt=""></a></li>
                     <li><a href="#"><img src="images/Rom1.png" alt=""></a></li>
@@ -67,7 +74,7 @@
         <!--内容区域-->
         <div class="content_recommend2 content_selected">
             <p class="selected_title">海上玩乐七十二变</p>
-            <ul class="recommend_img_list clearfix">
+            <ul class="recommend_img_list recommend_img_list_2 clearfix">
                 <li><a href="detail.html"><img src="images/shop1.jpg" alt=""></a>
                     <p class="p_text">云南丽江接机 丽江三义机场到丽江古城 束河古镇 面包车接机</p>
                     <span class="shop_num">已售200份</span>
@@ -86,9 +93,9 @@
             </ul>
             <div class="hr"></div>
         </div>
-        <div class="content_recommend2 content_selected">
+        <div class="content_recommend2 test2 content_selected">
             <p class="selected_title">做个SPA轻松一下</p>
-            <ul class="recommend_img_list clearfix">
+            <ul class="recommend_img_list recommend_img_list_3 clearfix">
                 <li><a href="detail1.html"><img src="images/shop3.jpg" alt=""></a>
                     <p class="p_text">SPA油控出人没梦想体验台式SPA让身体彻底放松</p>
                     <span class="shop_num">已售200份</span>
@@ -107,9 +114,9 @@
             </ul>
             <div class="hr"></div>
         </div>
-        <div class="content_recommend2 content_selected">
+        <div class="content_recommend2 test3 content_selected">
             <p class="selected_title">日本三日极限游</p>
-            <ul class="recommend_img_list clearfix">
+            <ul class="recommend_img_list recommend_img_list_4 clearfix">
                 <li><a href="#"><img src="images/shop5.jpg" alt=""></a>
                     <p class="p_text">体验全日航空的王牌美食领略不一样的旅游体验你值得拥有</p>
                     <span class="shop_num">已售200份</span>
@@ -129,9 +136,9 @@
             <div class="hr"></div>
         </div>
         <!--精选套餐-->
-        <div class="content_recommend2 content_selected">
+        <div class="content_recommend2 test4 content_selected">
             <p class="selected_title">精选套餐</p>
-            <ul class="recommend_img_list clearfix">
+            <ul class="recommend_img_list recommend_img_list_5 clearfix">
                 <li><a href="#"><img src="images/jxuan1.jpg" alt=""></a></li>
                 <li><a href="#"><img src="images/jxuan2.jpg" alt=""></a></li>
                 <li><a href="#"><img src="images/jxuan1.jpg" alt=""></a></li>
@@ -151,5 +158,8 @@
     </div>
 <script src="./js/public.js"></script>
 <script src="./js/index.js"></script>
+    <script src="./js/transform.js"></script>
+    <script src="./js/move.js"></script>
+
 </body>
 </html>

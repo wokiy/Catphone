@@ -1,5 +1,7 @@
 window.onload = function () {
     banner();
+ /*   listMove('recommend_img_list_1')
+    listMove1('recommend_img_list_2')*/
 }
 function banner(){
     /*
@@ -20,8 +22,6 @@ function banner(){
     var pointBox = banner.querySelector('ul:last-child');
     /*所有的点*/
     var points = pointBox.querySelectorAll('li');
-
-
     /*添加过渡*/
     var addTransition = function () {
         imageBox.style.webkitTransition = "all .2s";/*兼容*/
@@ -146,4 +146,88 @@ function banner(){
             setTranslateX(-index*w);
         },4000);
     });
+}
+function listMove(dom){
+    var listBox = document.querySelector('.'+dom+'');
+    var addTransition = function () {
+        listBox.style.webkitTransition = "all .6s";/*兼容*/
+        listBox.style.transition = "all .6s";
+    };
+    var setTranslateX = function(translateX){
+        listBox.style.webkitTransform = "translateX("+translateX+"px)";
+        listBox.style.transform = "translateX("+translateX+"px)";
+    };
+    var removeTransition = function () {
+        listBox.style.webkitTransition = "none";/*兼容*/
+        listBox.style.transition = "none";
+    };
+    var startX = 0;
+    var moveX = 0;
+    var distanceX = 0;
+    listBox.addEventListener("touchstart", function (e) {
+        startX = e.touches[0].clientX;
+    })
+    listBox.addEventListener("touchmove",function (e) {
+        moveX = e.touches[0].clientX
+        distanceX = moveX -  startX
+        var currX =distanceX;
+        /*删除过渡*/
+        removeTransition();
+        /*改变位子*/
+        setTranslateX(currX);
+    })
+    listBox.addEventListener("touchend", function (e) {
+      if(distanceX < -166){
+            distanceX = -166
+        }else if(distanceX > 0){
+            distanceX = 0
+        }
+        addTransition()
+        setTranslateX(distanceX)
+        startX = 0;
+        moveX = 0;
+        distanceX = 0;
+    })
+}
+function listMove1(dom){
+    var listBox = document.querySelector('.'+dom+'');
+    var addTransition = function () {
+        listBox.style.webkitTransition = "all .6s";/*兼容*/
+        listBox.style.transition = "all .6s";
+    };
+    var setTranslateX = function(translateX){
+        var a = translateX
+        // listBox.style.transform = "translateX("+(a)+"px)";
+        listBox.style.transform = "translateX("+translateX +"px)";
+    };
+    var removeTransition = function () {
+        listBox.style.webkitTransition = "none";/*兼容*/
+        listBox.style.transition = "none";
+    };
+    var startX = 0;
+    var moveX = 0;
+    var distanceX = 0;
+    listBox.addEventListener("touchstart", function (e) {
+        startX = e.touches[0].clientX;
+        console.log(startX)
+    })
+    listBox.addEventListener("touchmove",function (e) {
+
+        moveX = e.touches[0].clientX
+        distanceX = moveX -  startX
+        /* removeTransition();
+        setTranslateX(currX);*/
+    })
+    listBox.addEventListener("touchend", function () {
+        if(distanceX < -560){
+              distanceX = -560
+          }else if(distanceX > 20){
+              distanceX = 0
+          }
+        addTransition()
+        setTranslateX(distanceX)
+        console.log(distanceX)
+        startX = 0
+        moveX = 0
+    })
 }

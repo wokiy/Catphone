@@ -101,41 +101,54 @@ ol ,ul{
   /*索引定位*/
   position: relative;
 }
-.dm_banner .dm_banner_images{
-  /*4倍宽度  横向 四张图片*/
-  width: 600%;
-  -webkit-transform: translateX(-16.667%);
-  transform: translateX(-16.667%);
-}
-.dm_banner .dm_banner_images li{
-  float: left;
-  width: 16.667%;
-}
-.dm_banner .dm_banner_images li a{
-  display: block;
-  width: 100%;
-}
-.dm_banner .dm_banner_images li a img {
-  display: block;
-  width: 100%;
-}
-/*小图标*/
-.dm_banner .banner_index{
-  position: absolute;
-  bottom: 30/@rem;
-  left:50%;
-  margin-left: -20/@rem;
-}
-.dm_banner .banner_index li{
-  float: left;
-  width: 10/@rem;
-  height: 10/@rem;
-  border-radius: 50%;
-  border:  1px solid white;
-  margin-left: 5/@rem;
-}
-.dm_banner .banner_index li.current{
-  background-color:deeppink;
+.dm_banner{
+  .dm_banner_images{
+    /*4倍宽度  横向 四张图片*/
+    width: 600%;
+    -webkit-transform: translateX(-16.667%);
+    transform: translateX(-16.667%);
+  }
+  .dm_banner_images li{
+    float: left;
+    width: 16.667%;
+  }
+  .dm_banner_images li a{
+    display: block;
+    width: 100%;
+  }
+  .dm_banner_images {
+    li{
+      a {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .banner_index{
+    position: absolute;
+    bottom: 30/@rem;
+    left:50%;
+    margin-left: -20/@rem;
+  }
+  .banner_index{
+    li{
+      float: left;
+      width: 10/@rem;
+      height: 10/@rem;
+      border-radius: 50%;
+      border:  1px solid white;
+      margin-left: 5/@rem;
+    }
+  }
+  .banner_index{
+    li{
+      .current{
+        background-color:deeppink;
+      }
+    }
+  }
 }
 /*精选*/
 .content_selected{
@@ -193,11 +206,6 @@ ol ,ul{
   height: auto;
   width: 327/@rem;
 }
-
-
-
-
-
 /*精选*/
 .content_recommend2 .recommend_img_list{
   width: 300%;

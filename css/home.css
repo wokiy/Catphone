@@ -99,6 +99,7 @@ ul {
   overflow: hidden;
   /*索引定位*/
   position: relative;
+  /*小图标*/
 }
 .dm_banner .dm_banner_images {
   /*4倍宽度  横向 四张图片*/
@@ -108,7 +109,7 @@ ul {
 }
 .dm_banner .dm_banner_images li {
   float: left;
-  width: 16.667%;
+  width: 16.6667%;
 }
 .dm_banner .dm_banner_images li a {
   display: block;
@@ -132,8 +133,8 @@ ul {
   border: 1px solid white;
   margin-left: 0.10666667rem;
 }
-.dm_banner .banner_index li .current {
-  background-color: deeppink;
+.dm_banner .banner_index .current {
+  background-color: #ff1493;
 }
 /*精选*/
 .content_selected {
@@ -192,7 +193,6 @@ ul {
 /*精选*/
 .content_recommend2 .recommend_img_list {
   width: 300%;
-  /*根据改变consform:translateX(n)偏移量的值来滑动列表*/
 }
 .content_recommend2 .recommend_img_list li {
   float: left;
@@ -289,34 +289,36 @@ ul {
   width: 0.85333333rem;
   margin-right: 0.192rem;
 }
-.footer .hr1 {
-  height: 1px;
-  background: rgba(223, 223, 223, 0.5);
-  margin-top: 0.21333333rem;
-}
-.footer .footer-list {
-  display: flex;
-  font-family: 宋体;
-  color: darkgrey;
-}
-.footer .footer-list li:nth-of-type(1) {
-  width: 2.13333333rem;
-  float: left;
-  height: 1.408rem;
-  margin-left: 1.49333333rem;
-}
-.footer .footer-list li:nth-of-type(2) {
-  margin-left: 1.49333333rem;
-}
-.footer .footer-list li:nth-of-type(3) {
-  margin-left: 2.34666667rem;
-}
-.footer .footer-list li:nth-of-type(4) {
-  margin-left: 2.77333333rem;
-}
-.footer .footer-list li img {
-  width: 0.85333333rem;
-}
-.while {
+.footer_wrap .while {
   height: 2.02666667rem;
 }
+/*
+.footer .hr1{
+  height: 1px;
+  background: rgba(223,223,223,0.5);
+  margin-top: 10/@rem;
+}
+.footer .footer-list{
+  display: flex;
+  font-family:宋体;
+  color:darkgrey;
+}
+.footer .footer-list li:nth-of-type(1){
+  width: 100/@rem;
+  float: left;
+  height: 66/@rem;
+  margin-left: 70/@rem;
+}
+.footer .footer-list li:nth-of-type(2){
+  margin-left: 70/@rem;
+}
+.footer .footer-list li:nth-of-type(3){
+  margin-left: 110/@rem;
+}
+.footer .footer-list li:nth-of-type(4){
+  margin-left: 130/@rem;
+}
+.footer .footer-list li img{
+  width: 40/@rem;
+}
+*/
